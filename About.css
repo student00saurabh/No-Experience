@@ -1,0 +1,50 @@
+.a {
+    gap: 20px;
+}
+
+.container {
+    background-image: url("ig4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    max-width: 100%;
+    color: white;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.about-me,
+.certificates {
+    margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.certificate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.certificate img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.contain {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}

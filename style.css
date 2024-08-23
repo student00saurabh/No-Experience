@@ -1,0 +1,553 @@
+*{
+    font-family: serif;
+}
+
+.hv:hover{
+   transition: 0.3s;
+    border: 1px solid rgb(23, 57, 209);
+    border-radius: 20px;
+    padding: 5px;
+     box-shadow: 0px 2px 2px black;
+}
+
+
+
+@media(max-width:550px){
+
+
+.abc{
+ height: 350px;
+ width: 100%;
+}
+    .Container{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+  .Container11{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+  .Container12{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container13{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container14{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container15{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container16{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container17{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.ft1{
+        color: white;
+  }
+.ft2{
+        color: aqua;
+  }
+  .ft3{
+    color: red;
+  }
+  .ft4{
+    color: blue;
+  }
+  .ft5{
+    color: chocolate;
+  }
+  .ft6{
+    color: darkmagenta;
+  }
+  .ft7{
+    color: gold;
+  }
+
+      .first{
+         background-image: url('img13.gif');
+         background-position: center;
+       height: 450px;
+        background-size: cover;
+     }
+
+    .content1{
+        height: fit-content;
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 0px 2px 4px gray;
+        position: relative;
+        animation: slowed_left_come 3s 1;
+    }
+    .content2{
+        height: fit-content;
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 0px 2px 4px gray;
+        position: relative;
+        animation: slowed_right_come 3s 1;
+    }
+ 
+    .content3{
+        display: none;
+     }
+     .font111{
+        font-family: "Archivo Black", sans-serif;
+        color: aqua;
+        font-weight: bold;
+    }
+    .font112{
+        font-family: "Archivo Black", sans-serif;
+        color: white;
+        font-weight:200;
+    }
+    .font1{
+        font-family: "Archivo Black", sans-serif;
+        color: blue;
+        font-weight: bold;
+    }
+    .font2{
+        font-family: "Archivo Black", sans-serif;
+        color: black;
+        font-weight:200;
+    }
+    .out_come1{
+        text-shadow: 2px 8px 20px black;
+        animation: slowed_come 3s 1;
+    }
+
+
+    @keyframes slowed_come{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes slowed_left_come{
+        0%{
+            opacity: 0;
+            left: -200px;
+        }
+        100%{
+            opacity: 1;
+            left: 1px;
+        }
+    }
+    @keyframes slowed_right_come{
+        0%{
+            opacity: 0;
+            right: -300px;
+        }
+        100%{
+            opacity: 1;
+            right: 1px;
+        }
+    }
+
+    /* second box  contenar*/
+    .box-fit{
+        height: fit-content;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    /* footer */
+    footer{
+        background-color: lightblue;
+        padding: 5px;
+        padding-top: 10px ;
+        padding-top: 10px ;
+        padding-bottom: 10px;
+    }
+    
+   /* Ethical-Hacking part start from here */
+
+   .e-h-first{
+    align-items: center;
+}
+.other-page-content{
+    margin: 5px;
+    width: fit-content;
+}
+
+.e-h-second{
+    margin-top: 10px;
+    margin: 5px;
+}
+.ct4-img{
+    height: 300px;
+    width:100%; 
+    background-size: cover;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px
+}
+.content4{
+    background-color: gainsboro;
+    border-radius: 10px;
+    height: fit-content;
+    width: 95%; 
+    margin: 5px;
+    border: 2px solid gray;
+    box-shadow: 0px 4px 8px black;
+    animation: slowed_right_come 3s 1;
+ }
+
+   .contain{
+        background-color: grey;
+        height: 60px;
+        text-align: center;
+        display: grid;
+        align-items: center;
+    }
+
+}
+/* Media change for desctop and laptop */
+@media(min-width:550px){
+    /* .Container{
+        color: white;
+        background-image: url("bg1.jpg");
+        background-size: cover;
+       
+    } */
+
+.abc{
+ height: 350px;
+ width: 100%;
+}
+
+    .Container{
+  background-image: url('img19.jpg');
+  background-size: cover;
+  background-position: center;
+}
+  .Container11{
+  background-image: url('img111.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container12{
+  background-image: url('ig11.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container13{
+  background-image: url('ig39.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container14{
+  background-image: url('ig6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container15{
+  background-image: url('ig9.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container16{
+  background-image: url('ig35.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Container17{
+  background-image: url('img111.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.ft1{
+        color: white;
+  }
+.ft2{
+        color: aqua;
+  }
+  .ft3{
+  color: red;
+  }
+  .ft4{
+    color: blue;
+  }
+  .ft5{
+    color: chocolate;
+  }
+  .ft6{
+    color: darkmagenta;
+  }
+  .ft7{
+    color: gold;
+  }
+  
+     .first{
+         background-image: url('img13.gif');
+        height: 450px;
+        width: 100%;
+        padding: 10px;
+        background-size: cover;
+     }
+    .first{
+        display: flex;
+    }
+    .content1{
+        height: fit-content;
+        width: 100%;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 3px;
+        position: relative;
+        display: inline-block;
+        animation: slowed_left_come 3s 1;
+    }
+    .content2{
+        height: fit-content;
+        width: 100%;
+        border-radius: 5px;
+        padding: 20px;
+        position: relative;
+        display: inline-block;
+        animation: slowed_right_come 3s 1;
+    }
+
+    .content3{
+       background-color: gainsboro;
+       border-radius: 10px;
+       border: 2px solid gray;
+       box-shadow: 0px 4px 8px black;
+       margin-right: 20px;
+    }
+    .img_content{
+        text-shadow: 0px 4px 8px black;
+        text-align: center;
+        align-items: center;
+    }
+
+    .first-image{
+        background-color: lavender;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 350px;
+        width: 350px;
+        margin: 35px;
+
+    }
+    .img1{
+        background-image: url("ethical-hacking.png");
+        height: 350px;
+        width: 350px;
+        color: white;
+        background-size: cover;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+        justify-content: end;
+        padding-top: 50%;
+        opacity: 0;
+        text-shadow: 0px 4px 8px white;
+        animation: image 20s infinite 2s;
+    }
+    @keyframes image{
+        0%{
+            background-image: url("ethical-hacking.png");
+        }
+        16%{
+            background-image: url("bug-hunting.png");
+        }
+        32%{
+            background-image: url("darknet.png");
+        }
+        48%{
+            background-image: url("Web Hacking cc4d208b-13f6-4c50-acc0-c84bd6cc146d.png");
+        }
+        64%{
+            background-image: url("full-stack.png");
+        }
+        80%{
+            background-image: url("java.jpg");
+        }
+        100%{
+            background-image: url("python.jpg");
+        }
+    }
+
+     .font111{
+        font-family: "Archivo Black", sans-serif;
+        color: aqua;
+        font-weight: bold;
+    }
+    .font112{
+        font-family: "Archivo Black", sans-serif;
+        color: white;
+        font-weight:200;
+    }
+
+    .font1{
+        font-family: "Archivo Black", sans-serif;
+        color: blue;
+        font-weight: bold;
+    }
+    .font2{
+        font-family: "Archivo Black", sans-serif;
+        color: black;
+        font-weight:200;
+    }
+    .out_come1{
+        text-shadow: 2px 8px 20px black;
+        animation: slowed_come 3s 1;
+    }
+    @keyframes slowed_come{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes slowed_left_come{
+        0%{
+            opacity: 0;
+            left: -200px;
+        }
+        100%{
+            opacity: 1;
+            left: 1px;
+        }
+    }
+    @keyframes slowed_right_come{
+        0%{
+            opacity: 0;
+            right: -200px;
+        }
+        100%{
+            opacity: 1;
+            right: 1px;
+        }
+    }
+
+    /* second box  contenar*/
+    .box-fit{
+        height: fit-content;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .second-box{
+        border: 1px solid gray;
+        padding: 10px ;
+        margin: 10px;
+        height: 250px;
+        width: 300px;
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content11{
+        height: fit-content;
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 3px;
+        box-shadow: 0px 2px 4px gray;
+        position: relative;
+        display: inline-block;
+        animation: slowed_left_come 3s 1;
+    }
+    .content21{
+        height: fit-content;
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 0px 2px 4px gray;
+        position: relative;
+        display: inline-block;
+        animation: slowed_right_come 3s 1;
+    }
+    
+    /* footer */
+
+    .contain{
+        background-color: grey;
+        height: 60px;
+        text-align: center;
+        display: grid;
+        align-items: center;
+    }
+    .contain>p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    footer{
+        background-color: lightblue;
+        padding: 5px;
+        padding-top: 10px ;
+        padding-bottom: 10px;
+    }
+    .main-footer{
+        text-align: center;
+        align-items: center;
+    }
+    .merge{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    /* Ethical-Hacking part start from here */
+
+    .e-h-first{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .e-h-second{
+        margin: 10px;
+    }
+    .other-page-content{
+        margin: 10px;
+        width: fit-content;
+    }
+
+.ct4-img{
+    height: 320px;
+    width:100%; 
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px
+}
+
+    .content4{
+        background-color: gainsboro;
+        border-radius: 10px;
+        height: fit-content;
+        width:520px; 
+        margin: 30px;
+        border: 2px solid gray;
+        box-shadow: 0px 4px 8px black;
+        animation: slowed_right_come 3s 1;
+     }
+    
+}
